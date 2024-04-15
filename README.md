@@ -1,7 +1,7 @@
 # REASONS - A benchmark for REtrieval and Automated citationS Of scieNtific Sentences using Public and Proprietary LLMs
 
 # About
-This repository consists the data as well as the codes for all the experiments conducted in the REASONS paper.
+This repository consists of the data as well as the codes for all the experiments conducted in the REASONS paper.
 
 # Repository Structure
 
