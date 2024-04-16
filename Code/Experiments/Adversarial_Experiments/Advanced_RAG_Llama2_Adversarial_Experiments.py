@@ -98,8 +98,8 @@ def metrics(a,d,list1,list5):
   return
 
 def train():
-    documents = SimpleDirectoryReader("/content/drive/MyDrive/REASON_RAG").load_data() # give the path of the directory which contains all the files of the dataset
-    os.environ["REPLICATE_API_TOKEN"] = "r8_YL4PIeSRQPRzvwykJcfMoEsbPo7JtCr4Bu8nU"
+    documents = SimpleDirectoryReader("ENTER_DIRECTORY_PATH").load_data() # give the path of the directory which contains all the files of the dataset
+    os.environ["REPLICATE_API_TOKEN"] = "ENTER_REPLICATE_API_KEY"
 
     # Using replicate's llama-2-7b
     llama2_7b_chat = "meta/llama-2-7b-chat:8e6975e5ed6174911a6ff3d60540dfd4844201974602551e10e9e87ab143d81e"
