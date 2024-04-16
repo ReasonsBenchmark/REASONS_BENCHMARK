@@ -98,8 +98,8 @@ def metrics(a,d,list1,list5):
   return
 
 def train():
-    documents = SimpleDirectoryReader("/content/drive/MyDrive/REASON_RAG").load_data() # give the path of the directory which contains all the files of the dataset
-    os.environ["REPLICATE_API_TOKEN"] = "r8_YL4PIeSRQPRzvwykJcfMoEsbPo7JtCr4Bu8nU"
+    documents = SimpleDirectoryReader("ENTER_DIRECTORY_PATH").load_data() # give the path of the directory which contains all the files of the dataset
+    os.environ["REPLICATE_API_TOKEN"] = "ENTER_REPLICATE_API_KEY"
 
     # Using replicate's llama-2-7b
     mistral_7b_instruct = "mistralai/mistral-7b-instruct-v0.2:79052a3adbba8116ebc6697dcba67ad0d58feff23e7aeb2f103fc9aa545f9269"
