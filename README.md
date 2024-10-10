@@ -4,6 +4,7 @@
 This repository consists of the data as well as the codes for all the experiments conducted in the REASONS paper.
 
 # Repository Structure
+The name of each file in the Code and Data folders specifically defines its purpose.
 
 ## Code & Data
 
